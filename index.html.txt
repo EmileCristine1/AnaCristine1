@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ana Cristinia's Boutique</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .logo {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 100px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .product-image {
+      display: block;
+      margin-left: auto;
+      margin-top: 20px;
+      max-width: 150px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header {
+      background: #ffb6c1;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    nav {
+      background: #ffe4e1;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    footer {
+      background: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.jpg" alt="Ana Cristinia's Boutique Logo" class="logo">
+
+  <header>
+    <h1>Ana Cristinia's Boutique</h1>
+    <p>Ropa, Perfumes y Joyería con Estilo</p>
+  </header>
+
+  <nav>
+    <a href="#about">Sobre Nosotros</a>
+    <a href="#products">Productos</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Bienvenidos a Ana Cristinia's Boutique. Ofrecemos ropa elegante, perfumes únicos y joyería encantadora para cada ocasión. Gracias por apoyar nuestro negocio familiar.</p>
+  </section>
+
+  <section id="products">
+    <h2>Productos</h2>
+    <ul>
+      <li>👗 Ropa femenina moderna</li>
+      <li>🌸 Perfumes</li>
+      <li>💍 Joyería</li>
+    </ul>
+    <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.15752-9/506039540_1369642724337303_2494792806639629460_n.jpg?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=0024fc&amp;_nc_ohc=tDB2VyW9qrsQ7kNvwGPPWUi&amp;_nc_oc=Adny1dTymaX8Gju8A1-vfDelYLmN85fQYgiDPPjCrf2121kSYf-vXHX5KuADwUsZHJ0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=03_Q7cD2gH4Aboj5YfrzhdtZsE3Q8iEbtxPG4JRC2LVtDedrp4v3g&amp;oe=6877E64A" alt="Product Display" class="product-image">
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Teléfono: 571-529-2600</p>
+  </section>
+
+  <hr />
+
+  <header>
+    <h1>Ana Cristinia's Boutique</h1>
+    <p>Clothing, Perfumes & Jewelry with Style</p>
+  </header>
+
+  <nav>
+    <a href="#about-en">About</a>
+    <a href="#products-en">Products</a>
+    <a href="#contact-en">Contact</a>
+  </nav>
+
+  <section id="about-en">
+    <h2>About Us</h2>
+    <p>Welcome to Ana Cristinia's Boutique. We offer elegant clothing, unique perfumes, and charming jewelry for every occasion. Thank you for supporting our family business.</p>
+  </section>
+
+  <section id="products-en">
+    <h2>Our Products</h2>
+    <ul>
+      <li>👗 Modern women's clothing</li>
+      <li>🌸 Perfume</li>
+      <li>💍 Jewelry</li>
+    </ul>
+    <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.15752-9/506039540_1369642724337303_2494792806639629460_n.jpg?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=0024fc&amp;_nc_ohc=tDB2VyW9qrsQ7kNvwGPPWUi&amp;_nc_oc=Adny1dTymaX8Gju8A1-vfDelYLmN85fQYgiDPPjCrf2121kSYf-vXHX5KuADwUsZHJ0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-iad3-1.xx&amp;oh=03_Q7cD2gH4Aboj5YfrzhdtZsE3Q8iEbtxPG4JRC2LVtDedrp4v3g&amp;oe=6877E64A" alt="Product Display" class="product-image">
+  </section>
+
+  <section id="contact-en">
+    <h2>Contact</h2>
+    <p>Phone: 571-529-2600</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ana Cristinia's Boutique. All rights reserved.</p>
+  </footer>
+</body>
+</html>
